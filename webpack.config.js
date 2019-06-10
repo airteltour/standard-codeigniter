@@ -12,7 +12,7 @@ module.exports = {
         app: './resources/app.js'
     },
     output: {
-        path: path.join(__dirname, 'htdocs'),
+        path: path.join(__dirname, 'htdocs/assets'),
         filename: '[name].js',
     },
     module: {
